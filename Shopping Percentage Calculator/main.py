@@ -35,7 +35,7 @@ def calcPrice(currency, amounts):
         newCoupons += [newPercentage]
 
     list = []
-    for x in range(10):
+    for x in range(int(input("Number of item: "))):
         prices = int(input(f"Item price ({currency}): "))
         list += [prices]
 
